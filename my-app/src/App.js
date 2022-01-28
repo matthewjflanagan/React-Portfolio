@@ -2,7 +2,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import './App.css'
-import Portfolio from './components/pages/Portfolio';
+import Portfolio from './components/Portfolio';
 
 const App = () => {
   return (
