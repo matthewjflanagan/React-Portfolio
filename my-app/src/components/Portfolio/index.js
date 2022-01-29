@@ -5,16 +5,16 @@ const Portfolio = () => {
   const projects = [
     {
       id : 1,
-      name : 'project1',
-      img : './logo512.png',
-      repo : 'www.github.com',
+      name : 'HR Management System',
+      img : './HRManagementSystem.png',
+      repo : 'https://github.com/alifaizan786-op/HR_Management_System',
       description : 'kdjfalksjflksdj'
     },
     {
       id : 2,
-      name : 'project2',
-      img : './logo192.png',
-      repo : 'www.github.com',
+      name : 'JOBS 4 MORE',
+      img : './openingpagewithoutdropdown.png',
+      repo : 'https://matthewjflanagan.github.io/JOBS-4-MORE/',
       description : 'blah'
     }
   ];

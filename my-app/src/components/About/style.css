@@ -1,0 +1,21 @@
+#aboutme {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#aboutme h2 {
+    color: #f2f4db;
+    font-size: 40px;
+    word-break: keep-all;
+    width: 100%;
+    text-align: center;
+}
+
+#aboutme p {
+    color: #3e412e;
+    background-color: #f2f4db;
+    padding: 5%;
+    word-break: break-all;
+}

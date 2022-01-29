@@ -4,18 +4,21 @@ import './style.css';
 export default function Navigation() {
     const name = 'matt';
   return (
-  <nav>
-      <ul>
-          <li>
-            {name}
-          </li>
-          <li>
-              dsafsdf
-          </li>
-          <li>
-              fsdafsdfsad
-          </li>
-      </ul>
-  </nav>
+    <nav>
+        <ul id="webpageLinks">
+            <li>
+                <a class="webpagelinks" href="#aboutme" alt="link to about me section">ABOUT ME</a>
+            </li>
+            <li>
+                <a class="webpagelinks" href="#work" alt="link to work section">PROJECTS</a>
+            </li>
+            <li>
+                <a class="webpagelinks" href="#contactmeheader" alt="link to contact details">CONTACT</a>
+            </li>
+            <li>
+                <a  class="webpagelinks" href="./Resume.pdf" alt="link to resume">RESUME</a>
+            </li>
+        </ul>   
+    </nav>
   );
 }
