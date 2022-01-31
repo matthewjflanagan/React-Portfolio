@@ -1,0 +1,26 @@
+header {
+    margin-top: 10%;
+}
+
+.h1div {
+    font-size: 50px;
+}
+
+.h1div h1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+	color: #f2f4db;
+}
+
+.imgDisplay {
+    margin: 5% 0;
+}
+
+.imgDisplay img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 10px solid #f2f4db;
+    border-radius: 4px;
+}

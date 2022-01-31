@@ -8,11 +8,11 @@ import Portfolio from './components/Portfolio';
 const App = () => {
   return (
     <div className="mainDiv">
+      <Header />
       <Navigation />
       <About />
       <Portfolio />
-      {/* <Header />
-      <Footer /> */}
+      <Footer />
     </div>
   )
 };
