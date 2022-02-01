@@ -1,0 +1,91 @@
+#work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#work h2 {
+    color: #f2f4db;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+}
+
+.firstapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 90%;
+    max-width: 100%;
+}
+
+.firstapp h3 {
+    color: #f2f4db;
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+}
+
+.firstapp h4 {
+    color: #f2f4db;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+#firstappimg {
+    max-width: 100%;
+    opacity: 50%;
+}
+
+#firstappimg:hover {
+    max-width: 100%;
+    opacity: 100%;
+    transition: 2s;
+}
+
+#appsdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.apps {
+    display: flex;
+    flex: 0 0 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apps h3 {
+    color: #f2f4db;
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+}
+
+.apps h4 {
+    color: #f2f4db;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.applicationpics {
+    flex: 1 1 0;
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+    padding: 2px;
+    opacity: 50%;
+}
+
+.applicationpics:hover {
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+    padding: 2px;
+    opacity: 100%;
+    transition: 2s;
+}
