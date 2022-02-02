@@ -14,7 +14,7 @@ export default function Project({project}) {
             {project.description}
           </li>
       </ul>
-    <img className='applicationpics' src={project.img}/>
+    <img className='applicationpics' alt='apps' src={project.img}/>
   </div>
   );
 }

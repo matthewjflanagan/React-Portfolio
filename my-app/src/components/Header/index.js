@@ -8,7 +8,7 @@ export default function Header() {
             <h1>MATTHEW FLANAGAN</h1>
         </div>
         <div className="imgDisplay">
-            <img src="./fancypic.jpg" alt="professional photo" />
+            <img src="./fancypic.jpg" alt="professional" />
         </div>
     </header>
   );

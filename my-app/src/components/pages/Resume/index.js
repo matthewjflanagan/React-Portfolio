@@ -18,8 +18,8 @@ function Resume() {
 
           <a href="https://github.com" className="ml-4 mt-4 font-weight-bold">GitHub</a>
 
-          <img src={ResumePNG} alt="profile-photo" className="resumePNG"></img>
-          <a href="my-app\public\Resume.pdf"><h1 className="text-center mt-2">Download  Here</h1></a>
+          <div>src={ResumePNG}</div>
+          <a href="assets/Resume.pdf"><h1 className="text-center mt-2">Download  Here</h1></a>
 
         </div>
       </div>
