@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Project({project}) {
   return (
-  <div>
-      <ul>
+  <div id="appsdiv">
+      <ul className="apps">
           <li>
             {project.name}
           </li>
@@ -14,7 +14,7 @@ export default function Project({project}) {
             {project.description}
           </li>
       </ul>
-    <img src={project.img}/>
+    <img className='applicationpics' src={project.img}/>
   </div>
   );
 }

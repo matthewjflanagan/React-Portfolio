@@ -1,19 +1,28 @@
+import React from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/Header';
-import About from './components/About';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import './App.css'
-import Portfolio from './components/Portfolio';
+import Project from './components/pages/Project';
+import Home from './components/pages/Home'
+import Contact from './components/pages/Contact'
+import Resume from './components/pages/Resume'
 
 const App = () => {
   return (
-    <div className="mainDiv">
+    <Router>
+    <div>
       <Header />
       <Navigation />
-      <About />
-      <Portfolio />
+      <Route exact path="/Home" component={Home} />
+      <Route exact path="/Project" component={Project} />
+      <Route path="/Contact" component={Contact} />
+      <Route path="/Resume" component={Resume} />
       <Footer />
     </div>
+    //{' '}
+    </Router>
   )
 };
 
