@@ -12,11 +12,11 @@ import Resume from './components/pages/Resume'
 const App = () => {
   return (
     <Router>
-    <div>
+    <div className='mainDiv'>
       <Header />
       <Navigation />
       <Routes>
-        <Route exact path="./components/pages/Home" component={Home} />
+        <Route exact path="./src/components/pages/Home/index" component={Home} />
         <Route exact path="./components/pages/Project" component={Project} />
         <Route path="./components/pages/Contact" component={Contact} />
         <Route path="./components/pages/Resume" component={Resume} />
