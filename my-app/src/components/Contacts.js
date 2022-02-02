@@ -53,15 +53,15 @@ function Form() {
   };
 
   return (
-    <div>
-      <p>Hello {name}</p>
+    <div className="contactForm">
+      <p>Send me a message! {name}</p>
       <form className="form">
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
+          placeholder="E-mail"
         />
         <input
           value={name}
