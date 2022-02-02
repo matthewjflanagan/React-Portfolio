@@ -1,4 +1,5 @@
 import React from 'react';
+import Profile from '../assets/fancypic.jpg'
 
 export default function Header() {
   return (
@@ -7,7 +8,7 @@ export default function Header() {
             <h1>MATTHEW FLANAGAN</h1>
         </div>
         <div className="imgDisplay">
-            <img src="./fancypic.jpg" alt="professional" />
+            <img src={Profile} alt="professional"></img>
         </div>
     </header>
   );

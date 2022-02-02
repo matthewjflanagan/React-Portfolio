@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Project({project}) {
   return (
-  <div id="appsdiv">
-      <ul className="apps">
+  <div>
+      <ul id="work" className="apps">
           <li>
             {project.name}
           </li>

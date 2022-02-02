@@ -28,18 +28,14 @@
 
 /* Header */
 
-header {
-  margin-top: 10%;
-}
-
 .h1div {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .h1div h1 {
   text-align: center;
   font-family: 'Cinzel', serif;
-color: #f2f4db;
+  color: #f2f4db;
 }
 
 .imgDisplay {
@@ -51,6 +47,7 @@ color: #f2f4db;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+  max-width: 300px;
   border: 10px solid #f2f4db;
   border-radius: 4px;
 }
@@ -79,11 +76,12 @@ color: #f2f4db;
   align-items: center;
 }
 
-#work h2 {
+#work li {
   color: #f2f4db;
   text-align: center;
   width: 100%;
-  font-size: 40px;
+  font-size: 14px;
+  list-style-type: none;
 }
 
 .firstapp {
@@ -109,14 +107,7 @@ color: #f2f4db;
 }
 
 #firstappimg {
-  max-width: 450px;
-  opacity: 50%;
-}
-
-#firstappimg:hover {
-  max-width: 100%;
-  opacity: 100%;
-  transition: 2s;
+  max-width: 350px;
 }
 
 #appsdiv {
@@ -149,17 +140,45 @@ color: #f2f4db;
 
 .applicationpics {
   flex: 1 1 0;
-  width: 450px;
+  width: 350px;
   object-fit: cover;
   padding: 2px;
-  opacity: 50%;
+
 }
 
-.applicationpics:hover {
-  width: 800px;
-  height: 300px;
-  object-fit: cover;
-  padding: 2px;
-  opacity: 100%;
-  transition: 2s;
+/* Contact */
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+#contactmeheader {
+  color: #f2f4db;
+  font-size: 30px;
+}
+
+#contactlinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.contactme {
+  color: #f2f4db;
+  font-size: 20px;
+  margin: 2% 0;
 }

@@ -1,7 +1,9 @@
 # React-Portfolio
 
 ## Description
+Due to starting in a new field from scratch I will need to show future employees the skills I can offer without having any work experience, this is where the portfolio website will be useful! This is a simple website showing information about myself, prjoects that I have completed, and contact information for if a potential employer would like to reach out.
 
+The website is responsive to different webpages, has links leading to each page. 
 
 ## Table of Contents
 - [Installation](#installation)
@@ -21,7 +23,7 @@
 ![]()
 
 ## Credits
-
+Help from tutor, Ask BCS, Olsen, and Mariya!
 
 ## License
 MIT License
