@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import './style.css';
 
 export default function Navigation() {
   return (
@@ -10,7 +9,7 @@ export default function Navigation() {
                 <Link to="/">Home</Link>
             </li>
             <li>
-            <Link to="/Project">Portfolio</Link>
+                <Link to="/Project">Portfolio</Link>
             </li>
             <li>
                 <Link to="/Contact">Contact</Link>

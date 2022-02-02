@@ -1,5 +1,5 @@
 import React from "react";
-import ResumePNG from "../../../assets/Resume.pdf"
+import ResumePDF from "../../assets/Resume.pdf"
 
 
 
@@ -18,8 +18,8 @@ function Resume() {
 
           <a href="https://github.com" className="ml-4 mt-4 font-weight-bold">GitHub</a>
 
-          <div>src={ResumePNG}</div>
-          <a href="assets/Resume.pdf"><h1 className="text-center mt-2">Download  Here</h1></a>
+          <img src={ResumePDF} alt="profile" className="resumePNG"></img>
+          <a href="https://docs.google.com/document/d/195risknuNCpM10VRRABUB_qUqYfKepkBHhV7aiVFkPY/edit?usp=sharing"><h1 className="text-center mt-2">Download  Here</h1></a>
 
         </div>
       </div>

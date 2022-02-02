@@ -1,13 +1,13 @@
 import React from 'react'
-import { Link, Route } from 'react-router-dom'
-import Resume from '../Resume'
-import Contacts from '../../Contacts'
+import { Link, Route, Routes } from 'react-router-dom'
+import Resume from './Resume'
+import Contacts from '../Contacts'
 
 function Contact(props) {
   return (
     <div>
       <Link
-        to={`${props.match.url}/Resume`}
+        to={`${props.match}`}
         role="button"
         className="btn btn-link bg-light"
       >
@@ -16,7 +16,9 @@ function Contact(props) {
       <Link to="/Contact" role="button" className="btn btn-link bg-light">
         Back
       </Link>
-      <Route exact path={`${props.match.url}/Resume`} component={Resume} />
+      <Routes>
+        <Route exact path={`${props.match}`} component={Resume} />
+      </Routes>
       <Contacts />
     </div>
   )

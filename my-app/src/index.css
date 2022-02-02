@@ -1,3 +1,165 @@
-#root {
-  height: 100vh;
+.mainDiv {
+  background-color: #3e412e;
+}
+
+/* About Me */
+
+#aboutme {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#aboutme h2 {
+  color: #f2f4db;
+  font-size: 40px;
+  word-break: keep-all;
+  width: 100%;
+  text-align: center;
+}
+
+#aboutme p {
+  color: #3e412e;
+  background-color: #f2f4db;
+  padding: 5%;
+  word-break: break-all;
+}
+
+/* Header */
+
+header {
+  margin-top: 10%;
+}
+
+.h1div {
+  font-size: 20px;
+}
+
+.h1div h1 {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+color: #f2f4db;
+}
+
+.imgDisplay {
+  margin: 5% 0;
+}
+
+.imgDisplay img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border: 10px solid #f2f4db;
+  border-radius: 4px;
+}
+
+/* Navigation */
+
+#webpageLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+}
+
+.webpagelinks {
+  font-size: 30px;
+  color: #f2f4db;
+  margin: 9% 0;
+}
+
+/* Project */
+
+#work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#work h2 {
+  color: #f2f4db;
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+}
+
+.firstapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 90%;
+  max-width: 100%;
+}
+
+.firstapp h3 {
+  color: #f2f4db;
+  text-align: center;
+  width: 100%;
+  font-size: 35px;
+}
+
+.firstapp h4 {
+  color: #f2f4db;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+}
+
+#firstappimg {
+  max-width: 450px;
+  opacity: 50%;
+}
+
+#firstappimg:hover {
+  max-width: 100%;
+  opacity: 100%;
+  transition: 2s;
+}
+
+#appsdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.apps {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apps h3 {
+  color: #f2f4db;
+  text-align: center;
+  width: 100%;
+  font-size: 35px;
+}
+
+.apps h4 {
+  color: #f2f4db;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+}
+
+.applicationpics {
+  flex: 1 1 0;
+  width: 450px;
+  object-fit: cover;
+  padding: 2px;
+  opacity: 50%;
+}
+
+.applicationpics:hover {
+  width: 800px;
+  height: 300px;
+  object-fit: cover;
+  padding: 2px;
+  opacity: 100%;
+  transition: 2s;
 }
