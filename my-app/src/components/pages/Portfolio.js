@@ -1,9 +1,9 @@
 import React from 'react';
 import Project from '../Project';
-import HR from '../../assets/HRManagementSystem.png';
-import JOBS from '../../assets/openingpagewithoutdropdown.png';
-import TECH from '../../assets/techBlog.png';
-import QUIZ from '../../assets/runningapp.png';
+import HR from '../../assets/HRManagementSystem.PNG';
+import JOBS from '../../assets/openingpagewithoutdropdown.PNG';
+import TECH from '../../assets/techBlog.PNG';
+import QUIZ from '../../assets/runningapp.PNG';
 import SQUID from '../../assets/squid-games.PNG';
 
 const Portfolio = () => {
