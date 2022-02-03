@@ -13,14 +13,10 @@ The website is responsive to different webpages, has links leading to each page.
 - [Contact](#contact)
 
 ## Installation
-
+Visit the URL https://matthewjflanagan.github.io/React-Portfolio/
 
 ## Usage
-![]()
-
-![]()
-
-![]()
+![homepage](./assets/homepage.png)
 
 ## Credits
 Help from tutor, Ask BCS, Olsen, and Mariya!
