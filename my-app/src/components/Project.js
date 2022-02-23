@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Project({project}) {
   return (
-  <div>
+  <div className='projectDiv'>
       <ul id="work" className="apps">
           <li>
             {project.name}

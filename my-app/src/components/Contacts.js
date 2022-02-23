@@ -1,6 +1,6 @@
 // export default ContactCard
 import React, { useState } from "react";
-import { validateEmail, validateMessage } from "../components/utils/helpers";
+import { validateEmail, validateMessage } from "../utils/helpers";
 
 
 function Form() {
