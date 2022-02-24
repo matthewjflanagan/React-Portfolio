@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Navigation() {
   return (
     <nav className="container-nav">
-        <ul id="webpageLinks" className="nav nav-tabs">
+        <ul id="webpageLinks">
             <li>
                 <Link to="/">Home</Link>
             </li>

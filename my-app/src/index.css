@@ -1,4 +1,7 @@
 .mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #3e412e;
 }
 
@@ -40,34 +43,23 @@
   color: #f2f4db;
 }
 
-.imgDisplay {
-  margin: 5% 0;
-}
-
-.imgDisplay img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  max-width: 200px;
-  border: 10px solid #f2f4db;
-  border-radius: 4px;
-}
-
 /* Navigation */
 
 #webpageLinks {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style-type: none;
-  width: 100%;
+  justify-content: space-around;
+  max-width: 650px;
+  width: 95%;
 }
 
-.webpagelinks {
-  font-size: 30px;
+#webpageLinks li {
+  list-style-type: none;
+  margin: 9%;
+}
+
+#webpageLinks li a {
   color: #f2f4db;
-  margin: 9% 0;
+  text-decoration: none;
 }
 
 /* Project */
