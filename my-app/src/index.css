@@ -1,33 +1,4 @@
-.mainDiv {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #3e412e;
-}
-
-/* About Me */
-
-#aboutme {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-#aboutme h2 {
-  color: #f2f4db;
-  font-size: 40px;
-  word-break: keep-all;
-  width: 100%;
-  text-align: center;
-}
-
-#aboutme p {
-  color: #3e412e;
-  background-color: #f2f4db;
-  padding: 5%;
-  word-break: break-all;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* Header */
 
@@ -39,8 +10,15 @@
 
 .h1div h1 {
   text-align: center;
-  font-family: 'Cinzel', serif;
+  font-family: 'Bebas Neue', cursive;
   color: #f2f4db;
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3e412e;
 }
 
 /* Navigation */
@@ -60,6 +38,40 @@
 #webpageLinks li a {
   color: #f2f4db;
   text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* About Me */
+
+#aboutme {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#aboutme h2 {
+  color: #f2f4db;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  list-style-type:none;
+  width: 95%;
+  max-width: 600px;
+  padding: 0;
+}
+
+.aboutMeList {
+  color: #3e412e;
+  background-color: #f2f4db;
+  font-family: 'Bebas Neue', cursive;
+  padding: 5%;
+  text-align: center;
 }
 
 /* Project */
@@ -83,6 +95,7 @@
   width: 100%;
   font-size: 14px;
   list-style-type: none;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .firstapp {
@@ -98,6 +111,7 @@
   text-align: center;
   width: 100%;
   font-size: 35px;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .firstapp h4 {
@@ -105,6 +119,7 @@
   text-align: center;
   width: 100%;
   font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
 }
 
 #firstappimg {
@@ -130,6 +145,7 @@
   text-align: center;
   width: 100%;
   font-size: 35px;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .apps h4 {
@@ -137,6 +153,7 @@
   text-align: center;
   width: 100%;
   font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .applicationpics {
@@ -154,6 +171,7 @@
   font-size: 20px;
   margin: 2% 0;
   text-align: center;
+  font-family: 'Bebas Neue', cursive;
 }
 
 form {
@@ -162,6 +180,7 @@ form {
   max-width: 600px;
   text-align: center;
   margin: 20px auto;
+  font-family: 'Bebas Neue', cursive;
 }
 
 /* Footer */
@@ -170,11 +189,14 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 95%;
+  max-width: 600px;
 }
 
 #contactmeheader {
   color: #f2f4db;
   font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
 }
 
 #contactlinks {
@@ -182,10 +204,12 @@ footer {
   flex-direction: column;
   align-items: center;
   list-style-type: none;
+  padding: 0;
 }
 
 .contactme {
   color: #f2f4db;
   font-size: 20px;
   margin: 2% 0;
+  font-family: 'Bebas Neue', cursive;
 }

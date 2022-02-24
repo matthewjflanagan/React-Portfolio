@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from '../components/Project';
 import HR from '../assets/HRManagementSystem.png';
-import JOBS from '../assets/openingpagewithoutdropdown.png';
+import TOYS from '../assets/openingpagewithoutdropdown.png';
 import TECH from '../assets/techBlog.png';
 import QUIZ from '../assets/runningapp.png';
 import SQUID from '../assets/squid-games.PNG';
@@ -10,17 +10,17 @@ const Portfolio = () => {
   const projects = [
     {
       id : 1,
-      name : 'HR Management System',
-      img : HR,
-      repo : 'https://github.com/alifaizan786-op/HR_Management_System',
+      name : 'Toysplanet',
+      img : TOYS,
+      repo : 'https://github.com/Chrisolsen1993/Toysplanet',
       description : 'HTML/CSS/Materialize/Javascript/Node.js/SQL/Handlebars'
     },
     {
       id : 2,
-      name : 'JOBS 4 MORE',
-      img : JOBS,
-      repo : 'https://matthewjflanagan.github.io/JOBS-4-MORE/',
-      description : 'HTML/CSS/Javascript'
+      name : 'HR Management System',
+      img : HR,
+      repo : 'https://github.com/alifaizan786-op/HR_Management_System',
+      description : 'HTML/CSS/Materialize/Javascript/Node.js/SQL/Handlebars'
     },
     {
       id : 3,
