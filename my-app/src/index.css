@@ -43,6 +43,12 @@
 
 /* About Me */
 
+.aboutMeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #aboutme {
   display: flex;
   justify-content: center;
@@ -87,6 +93,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0;
 }
 
 #work li {
