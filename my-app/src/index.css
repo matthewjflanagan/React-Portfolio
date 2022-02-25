@@ -240,6 +240,26 @@ form {
   font-family: 'Bebas Neue', cursive;
 }
 
+/* Resume */
+
+.contactCardDiv {
+  font-family: 'Bebas Neue', cursive;
+  color: #f2f4db;
+  background-color: #3e412e;
+}
+
+.contactCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardContent a {
+  font-family: 'Bebas Neue', cursive;
+  color: #f2f4db;
+  text-decoration: none;
+}
+
 /* Footer */
 
 footer {
