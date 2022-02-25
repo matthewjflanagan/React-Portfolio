@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import "react-slideshow-image/dist/styles.css";
 
 /* Header */
 
@@ -21,13 +22,29 @@
   background-color: #3e412e;
 }
 
+/* .imgDisplay {
+  background-image: url("./assets/lightning.gif");
+} */
+
 /* Navigation */
 
 #webpageLinks {
   display: flex;
-  justify-content: space-around;
-  max-width: 650px;
-  width: 95%;
+  justify-content: center;
+  margin: 0 10px;
+  width: 100%;
+  padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+  #webpageLinks {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 5px 5px;
+    width: 100%;
+    padding: 0;
+  }
 }
 
 #webpageLinks li {
@@ -39,6 +56,39 @@
   color: #f2f4db;
   text-decoration: none;
   font-family: 'Bebas Neue', cursive;
+}
+
+/* Home */
+
+@import "react-slideshow-image/dist/styles.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.zoom-wrapper div {
+  justify-content: center;
+}
+
+.slide-container {
+  width: 90%;
+}
+
+img {
+  max-height: 200px;
+  max-width: fit-content;
+  align-self: center;
+  border: solid 3px #f2f4db;
 }
 
 /* About Me */

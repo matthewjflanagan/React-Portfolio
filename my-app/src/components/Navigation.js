@@ -6,16 +6,19 @@ export default function Navigation() {
     <nav className="container-nav">
         <ul id="webpageLinks">
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/">HOME</Link>
             </li>
             <li>
-                <Link to="/Portfolio">Portfolio</Link>
+                <Link to="/About">ABOUT</Link>
             </li>
             <li>
-                <Link to="/Contact">Contact</Link>
+                <Link to="/Portfolio">PORTFOLIO</Link>
             </li>
             <li>
-                <Link to="/Resume">Resume</Link>
+                <Link to="/Contact">MESSAGE</Link>
+            </li>
+            <li>
+                <Link to="/Resume">RESUME</Link>
             </li>
         </ul>   
     </nav>

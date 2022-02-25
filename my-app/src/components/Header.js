@@ -1,5 +1,4 @@
 import React from 'react';
-import Profile from '../assets/fancypic.jpg'
 
 export default function Header() {
   return (

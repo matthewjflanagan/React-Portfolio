@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function About() {
   return (
+    <div className='aboutMeDiv'>
 <section id="aboutme">
-    <h2>About Me</h2>
     <ul className='listContainer'>
         <li className='aboutMeList'>
           Leveraging sales background to build a more user-friendly experience on the web.
@@ -25,5 +25,6 @@ export default function About() {
         </li>
     </ul>
 </section>
+</div>
   );
 }

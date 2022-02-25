@@ -1,8 +1,12 @@
 import React from 'react';
+import Profile from '../assets/frame.gif'
 
 export default function Footer() {
   return (
         <footer>
+            {/* <div className="imgDisplay">
+                <img src={Profile} alt="professional"></img>
+            </div> */}
             <h2 id="contactmeheader">Contact Me</h2>
             
             <nav>
