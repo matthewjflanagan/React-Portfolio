@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.22301274.css",
-    "main.js": "/React-Portfolio/static/js/main.c4ca3b56.js",
-    "static/media/fancypic.jpg": "/React-Portfolio/static/media/fancypic.6f0ac16168d4cb89d70f.jpg",
+    "main.css": "/React-Portfolio/static/css/main.afcc175f.css",
+    "main.js": "/React-Portfolio/static/js/main.e6cb34e8.js",
+    "static/media/vito3.jpg": "/React-Portfolio/static/media/vito3.308d96a1233c66140387.jpg",
+    "static/media/vito4.jpg": "/React-Portfolio/static/media/vito4.a43c113e7de009a93c8e.jpg",
+    "static/media/vito5.jpg": "/React-Portfolio/static/media/vito5.9f0b1a1f9c1f4fba4108.jpg",
+    "static/media/vito1.jpg": "/React-Portfolio/static/media/vito1.5f2d05bcf017dd26b9c2.jpg",
+    "static/media/vito2.jpg": "/React-Portfolio/static/media/vito2.7378ab69cbf563cde9e9.jpg",
     "static/media/openingpagewithoutdropdown.png": "/React-Portfolio/static/media/openingpagewithoutdropdown.98554c595a1ec2766308.png",
     "static/media/HRManagementSystem.png": "/React-Portfolio/static/media/HRManagementSystem.79f48bccbf175d70f5f0.png",
+    "static/media/frame.gif": "/React-Portfolio/static/media/frame.313faedd38cebf614743.gif",
     "static/media/techBlog.png": "/React-Portfolio/static/media/techBlog.f8852223395b17f53342.png",
     "static/media/runningapp.png": "/React-Portfolio/static/media/runningapp.1ee9dfa1e59aa5980a19.png",
     "static/media/squid-games.PNG": "/React-Portfolio/static/media/squid-games.64e14250f7a58ff15d1a.PNG",
     "index.html": "/React-Portfolio/index.html",
-    "main.22301274.css.map": "/React-Portfolio/static/css/main.22301274.css.map",
-    "main.c4ca3b56.js.map": "/React-Portfolio/static/js/main.c4ca3b56.js.map"
+    "main.afcc175f.css.map": "/React-Portfolio/static/css/main.afcc175f.css.map",
+    "main.e6cb34e8.js.map": "/React-Portfolio/static/js/main.e6cb34e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.22301274.css",
-    "static/js/main.c4ca3b56.js"
+    "static/css/main.afcc175f.css",
+    "static/js/main.e6cb34e8.js"
   ]
 }
